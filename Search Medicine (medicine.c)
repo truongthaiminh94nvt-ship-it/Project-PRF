@@ -1,0 +1,14 @@
+int searchMedicine(Medicine *medicines,
+                   int count,
+                   char *id)
+{
+    for (int i = 0; i < count; i++)
+    {
+        if (strcmp(medicines[i].id, id) == 0)
+        {
+            return i;
+        }
+    }
+
+    return -1;
+}
