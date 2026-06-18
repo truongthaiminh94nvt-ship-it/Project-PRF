@@ -1,0 +1,9 @@
+typedef struct
+{
+    char id[20];
+    char name[100];
+    char category[50];
+    int quantity;
+    float price;
+    char expiry_date[11];
+} Medicine;
