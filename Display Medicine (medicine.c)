@@ -1,0 +1,22 @@
+void displayMedicines(Medicine *medicines,
+                      int count)
+{
+    printf("%-10s %-30s %-20s %-10s %-12s %-12s\n",
+           "Ma",
+           "Ten Thuoc",
+           "Danh muc",
+           "SL",
+           "Gia",
+           "HSD");
+
+    for (int i = 0; i < count; i++)
+    {
+        printf("%-10s %-30s %-20s %-10d %-12.2f %-12s\n",
+               medicines[i].id,
+               medicines[i].name,
+               medicines[i].category,
+               medicines[i].quantity,
+               medicines[i].price,
+               medicines[i].expiry_date);
+    }
+}
