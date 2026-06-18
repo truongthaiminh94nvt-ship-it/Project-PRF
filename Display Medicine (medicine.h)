@@ -1,0 +1,2 @@
+void displayMedicines(Medicine *medicines,
+                      int count);
