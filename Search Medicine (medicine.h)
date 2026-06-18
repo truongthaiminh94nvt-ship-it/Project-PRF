@@ -1,0 +1,3 @@
+int searchMedicine(Medicine *medicines,
+                   int count,
+                   char *id);
